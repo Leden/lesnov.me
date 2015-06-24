@@ -1,0 +1,78 @@
+.b-clouds {
+    z-index: -1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.b-clouds__lower {
+    background-image: url('b-clouds__lower.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    animation: lower 70s linear 0s infinite;
+    -webkit-animation: lower 70s linear 0s infinite;
+    -moz-animation: lower 70s linear 0s infinite;
+    -o-animation: lower 70s linear 0s infinite;
+    -ms-animation: lower 70s linear 0s infinite;
+}
+
+@keyframes lower {
+    from { background-position: 0;     }
+    to   { background-position: 640px; }
+}
+
+@-webkit-keyframes lower {
+    from { background-position: 0;     }
+    to   { background-position: 640px; }
+}
+
+@-moz-keyframes lower {
+    from { background-position: 0;     }
+    to   { background-position: 640px; }
+}
+
+@-o-keyframes lower {
+    from { background-position: 0;     }
+    to   { background-position: 640px; }
+}
+
+.b-clouds__upper {
+    background-image: url('b-clouds__upper.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    animation: upper 20s linear 0s infinite;
+    -webkit-animation: upper 20s linear 0s infinite;
+    -moz-animation: upper 20s linear 0s infinite;
+    -o-animation: upper 20s linear 0s infinite;
+    -ms-animation: upper 20s linear 0s infinite;
+}
+
+@keyframes upper {
+    from { background-position: 0 200px;     }
+    to   { background-position: 640px 200px; }
+}
+
+@-webkit-keyframes upper {
+    from { background-position: 0 200px;     }
+    to   { background-position: 640px 200px; }
+}
+
+@-moz-keyframes upper {
+    from { background-position: 0 200px;     }
+    to   { background-position: 640px 200px; }
+}
+
+@-o-keyframes upper {
+    from { background-position: 0 200px;     }
+    to   { background-position: 640px 200px; }
+}
